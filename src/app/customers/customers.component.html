@@ -31,7 +31,8 @@
             <td>{{c.name}}</td>
             <td>{{c.email}}</td>
             <td>
-              <button (click)="handleDeleteCustomer(c)" class="btn btn-danger">
+              <button *ngIf="authService.roles.includes(
+            'ADMIN')" (click)="handleDeleteCustomer(c)" class="btn btn-danger">
                 <i class="bi bi-trash"></i>
               </button>
             </td>
@@ -51,7 +52,7 @@
   </ng-container>
 
   <ng-template #failureOrLoading >
-    <ng-container *ngIf="errorMessage"; else loading>
+    <ng-container *ngIf="errorMessage">
 
       <div class="text-danger">
         {{errorMessage}}

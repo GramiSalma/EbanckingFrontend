@@ -6,6 +6,7 @@ import {Customer} from "../model/customer.model";
 import {throws} from "node:assert";
 import {FormBuilder, FormGroup} from "@angular/forms";
 import {Router, RouterModule} from "@angular/router";
+import {AuthService} from "../services/auth.service";
 
 @Component({
   selector: 'app-customers',
@@ -18,7 +19,7 @@ export class CustomersComponent implements OnInit{
   searchFormGroup!: FormGroup ;//| undefined;
  // searchFormGroup :FormGroup | undefined;
 
-  constructor(private customerService:CustomerService,private fb:FormBuilder,private router:Router) {
+  constructor(private customerService:CustomerService,private fb:FormBuilder,private router:Router,public authService: AuthService ) {
 
   }
   ngOnInit(): void {
@@ -63,7 +64,7 @@ export class CustomersComponent implements OnInit{
 
 
   handleCustomerAccounts(c: Customer) {
-    this.router.navigateByUrl("/customer-accounts/"+c.id,{state:c});
+    this.router.navigateByUrl("/admin/customer-accounts/"+c.id,{state:c});
   }
 }
 
