@@ -1,0 +1,26 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-12">
+      <h3>Customer Information</h3>
+      <table class="table table-bordered">
+        <thead class="thead-light">
+        <tr>
+          <th scope="col">Field</th>
+          <th scope="col">Value</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Customer ID</td>
+          <td>{{ customerId }}</td>
+        </tr>
+        <tr>
+          <td>Customer Details (JSON)</td>
+          <td><pre>{{ customer | json }}</pre></td>
+        </tr>
+        <!-- Add more rows here if you want to display more specific details about the customer -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
