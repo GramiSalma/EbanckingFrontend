@@ -1,27 +1,52 @@
-# Front
+<h1>Compte rendu de Front End  de Ebanking</h1>
+<h3>Introduction :</h3>
+<p>Dans ce projet, nous avons simulé un système de banque en ligne, permettant de consulter les clients, de visualiser les opérations de chaque client, et d'effectuer des transactions comme le débit, le crédit et les transferts. Nous avons utilisé Angular pour le frontend et Java JEE pour le backend.</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
-## Development server
+<h3>Liste des Clients  </h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="./captures/img.png">
 
-## Code scaffolding
+<h3>Fonctionnalite Search </h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img src="./captures/img_1.png">
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h3>Creation d'un client</h3>
+<h4>Get customers </h4>
+<img src="./captures/img_2.png">
 
-## Running unit tests
+<h4>Test de Creation du client</h4>
+<img src="./captures/img_3.png">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h4>les Validations  </h4>
+<img src="./captures/img_4.png">
 
-## Running end-to-end tests
+<h4>Supprimer un client  </h4>
+<img src="./captures/img_5.png">
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<h4>Consulter les operations d'un client  </h4>
+<img src="./captures/img_6.png">
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h4>Effectuer une operation de debit </h4>
+<p></p>
+<img src="./captures/img_7.png">
+<h4>Order By Date du plus recent vers le plus ancien </h4>
+<p></p>
+<img src="./captures/img_8.png">
+<h4>Effectuer une operation de credit </h4>
+<p></p>
+<img src="./captures/img_9.png">
+<h4>Effectuer une operation de transfert entre deux comptes</h4>
+<p></p>
+<img src="./captures/img_10.png">
+<h4>Ajout de boutton Account </h4>
+<p></p>
+<img src="./captures/img_11.png">
+<h4>Un client specifique </h4>
+<p></p>
+<img src="./captures/img_12.png">
+
+<h4>Conclusion</h4>
+<p>Ce projet a démontré notre capacité à intégrer Angular pour une interface utilisateur dynamique et Java JEE pour une logique backend robuste. La prochaine étape est d'ajouter Spring Security pour renforcer la sécurité de l'application, garantissant ainsi la protection des données des utilisateurs et des transactions.</p>
