@@ -82,3 +82,9 @@ Cette configuration garantit une sécurité robuste pour l'application backend, 
 </p>
 <h4>Conclusion</h4>
 <p>Ce projet a démontré notre capacité à intégrer Angular pour une interface utilisateur dynamique et Java JEE pour une logique backend robuste. La derniere étape etait d'ajouter Spring Security pour renforcer la sécurité de l'application, garantissant ainsi la protection des données des utilisateurs et des transactions.</p>
+<h4>Resultat courant de ce projet  </h4>
+
+
+
+https://github.com/GramiSalma/EbanckingFrontend/assets/81409490/ec2f6814-4975-4fe8-b413-aa39f8e2cd75
+
